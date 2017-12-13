@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>General Applications Programming HTML5 & JavaScript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+        });
+    </script>
+    <script src="js/slide_show.js"></script>
+</head>
+
+<body>
+<header>
+    <img src="images/favicon.ico.png">
+    <h2>Computational Science</h2>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="educational.html">Educational Experience</a></li>
+        <li><a href="showcase.html">Project Showcase</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>Educational Experience</h2>
+        <p>
+        <h3>There are many experiences I had involving working on a computer </h3></p>
+        <p>In high school, my freshman year, I was told to take a mandatory computer class, Integrated Business App.
+            Integrated Business App was a class thats objective is to work in the Microsoft Office applications, like
+            Word Excel and PowerPoint. At the University South Carolina Beaufort, Fall of 2017, I am currently taking
+            both CSCI B101 Introduction to Computer Concept and CSCI B102 General Applications Programming HTML5 &
+            JavaScript. Introduction to Computer Concept is very similar to the IBA class but in CSCI B101 you learn
+            more about computer parts, storage and memory. CSCI B102 General Applications Programming HTML5 &
+            JavaScript is my first ever programming class.</p>
+    </section>
+    <aside>
+        <img id="slide" src="images/PowerPoint%201.png" height="300" width="345">
+        <div id="slides">
+            <img src="images/PowerPoint%201.png" alt="">
+            <img src="images/PowerPoint%202.png" alt="">
+            <img src="images/PowerPoint%203.png" alt="">
+            <img src="images/PowerPoint%204.png" alt="">
+            <img src="images/PowerPoint%205.png" alt="">
+        </div>
+    </aside>
+</main>
+<footer>
+    <p>Cameron Seabrook</p>
+</footer>
+</body>
+</html>
